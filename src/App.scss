@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Asus Rog Regular';
+  src: local('Asus Rog Regular'),
+       url('./Assets/Fonts/asusrog_regular.ttf') format('truetype'); /* Correct format and adjusted path */
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Asus Rog Regular'; /* Fallback font added */
+}
+.b{
+  border: 2px solid red;
+}
+.border-cutting{
+  // border-top-left-radius: 40px;
+  // border-bottom-right-radius: 40px;
+  // clip-path: polygon(4% 0%, 10% 0%, 92% 0%, 88% 100%, 0% 100%);
+  clip-path: polygon(3% 0, 100% 0, 100% 60%, 97% 100%, 0 100%, 0 40%);
+}
+.connect_wallet_border-cutting{
+  // border-top-left-radius: 40px;
+  // border-bottom-right-radius: 40px;
+  // clip-path: polygon(4% 0%, 10% 0%, 92% 0%, 88% 100%, 0% 100%);
+  clip-path: polygon(5% 0, 100% 0, 100% 60%, 95% 100%, 0 100%, 0 40%);
+}
+.btn-cutting{
+  clip-path: polygon(12% 0%, 10% 0%, 100% 0%, 88% 100%, 0% 100%);
+}
+body{
+  background-color: black;
+}
+
+.nav-bg{
+  background-color:  rgba(0, 0, 0, 0.8);
+}
+
+.img-container:hover{
+  border-radius: 10px;
+  border: 3px solid orange !important; 
+}
+img{
+  border-radius: 10px;
+}
+.img-color-change:hover{
+  filter: hue-rotate(40deg);
+}
+
+@media screen and (min-width:1024px) {
+  .img-container:hover{
+    transform: scale(1.1);
+
+  }
+}
+
+.nav-cutting{
+  clip-path: polygon(100% 30%, 100% 100%, 3% 100%, 0% 70%, 0% 0%, 97% 0%);
+
+}
+.nav-cutting-parent{
+  clip-path: polygon(100% 30%, 100% 100%, 3% 100%, 0% 70%, 0% 0%, 97% 0%);
+
+}
+.cont_wallet-btn-parent{
+clip-path: polygon(100% 20%, 100% 100%, 5% 100%, 0% 80%, 0% 0%, 95% 0%);
+
+
+}
+.cont_wallet-btn{
+clip-path: polygon(100% 20%, 100% 100%, 5% 100%, 0% 80%, 0% 0%, 95% 0%);
+}
+.navabr-cutting{
+  clip-path: polygon(0 0, 95% 0, 100% 25%, 100% 100%, 5% 100%, 0 75%);
+
+}
+.footer-cutting-parent{
+  clip-path: polygon(100% 20%, 100% 100%, 4.5% 100%, 0% 80%, 0% 0%, 96.5% 0%);
+  }
+.footer-cutting{
+clip-path: polygon(100% 20%, 100% 100%, 4.5% 100%, 0% 80%, 0% 0%, 96.5% 0%);
+}
